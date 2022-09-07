@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin-bottom: 5rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,10 +23,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-transform: uppercase;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fff;
+  background-color: #61dafb;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
@@ -33,6 +39,7 @@
     transform: rotate(180deg);
   }
   to {
-    transform: translateY(150px);
+    transform: translateY(100px);
   }
 }
+
