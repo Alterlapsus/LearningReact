@@ -13,7 +13,9 @@ function App() {
       <PrimerComponente />
       <br />
       <SegundoComponentes />
+      <br />
       </header>
+
     </div>
   );
 }
