@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { PrimerComponente } from './Components/PrimerComponente';
+import { SegundoComponentes } from './Components/SegundoComponente';
 
 function App() {
   return (
@@ -8,7 +10,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
      
      <p>Esto es un repaso en react</p>
-     <h1>Bienvenidos</h1>
+      <PrimerComponente />
+      <br />
+      <SegundoComponentes />
       </header>
     </div>
   );
