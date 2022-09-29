@@ -5,5 +5,3 @@
 - HOOKS 
 - COMPONENTS 
 - ROUTES
-- REACT JS
-- CSS
